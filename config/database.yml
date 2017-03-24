@@ -83,9 +83,9 @@ test:
 #
 production:
   <<: *default
-    url: <%= ENV['DATABASE_URL'] %>
-    username: <%= ENV['DATABASE_USER'] %>
-    password: <%= ENV['DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  username: <%= ENV['DATABASE_USER'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
 #  database: quiz1_production
 #  username: quiz1
 #  password: <%= ENV['QUIZ1_DATABASE_PASSWORD'] %>
